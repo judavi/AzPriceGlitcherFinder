@@ -1,0 +1,32 @@
+{
+  "name": "azpriceglitch",
+  "version": "1.0.0",
+  "description": "Search Glitches on Today's deals",
+  "main": "index.js",
+  "keywords": [
+    "az",
+    "glitch",
+    "typecript"
+  ],
+  "author": "judavi",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "compile": "ts-node build.ts && tsc"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.10",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
+    "cheerio": "^1.0.0-rc.2",
+    "nodemon": "^1.18.9",
+    "puppeteer": "^1.11.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
+  }
+}
